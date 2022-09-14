@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gradient Bug</title>
+</head>
+<body>
+
+  <main class="overflow-hidden">
+    <!-- Hero Section -->
+    <section id="hero" class="relative h-[80vh] bg-black">
+
+      <!-- Hero Content -->
+      <div class="absolute top-0 left-0 flex flex-col justify-center w-full h-full text-center">
+
+        <h3 class="text-white">Section 1 with a black background</h3>
+        
+      </div>
+    </section>
+
+    <section class="h-screen bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col justify-center w-full text-center">
+        <h3>Section 2 with a gradient background</h3>
+    </section>
+  </main>
+
+</body>
+</html>
